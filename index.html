@@ -1,79 +1,66 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>My First GitHub Page</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JRS Football Academy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<div class="logo">
-      <img src="assets/logo.png" alt="Football Academy Logo">
-    </div>
-    
-<h1>jrs football Academy</h1>
-    <h2>Welcome to my Football Academy</h2>
-  <h2>“Winning is not everything – but making the effort to win is”-Lionel messi</h2>
-<h2>“When you’ve got something to prove, there’s nothing greater than a challenge.”-Cristiano Ronaldo</h2>
-  <h2>“To win you have to score one more goal than your opponent.” – Johan Cruyff</h2>
-  
-    <nav>
-      <a href="#home">Home</a> | 
-      <a href="#about">About</a> | 
-      <a href="#contact">Contact</a>
-    </nav>
-  
-</header>
+    <header>
+        <div class="logo">
+            <!-- Make sure the image is placed inside the 'assets' folder -->
+            <img src="assets/logo.png" alt="Football Academy Logo">
+        </div>
 
+        <h1>JRS Football Academy</h1>
+        <h2>Welcome to my Football Academy</h2>
+        <h2>“Winning is not everything – but making the effort to win is” – Lionel Messi</h2>
+        <h2>“When you’ve got something to prove, there’s nothing greater than a challenge.” – Cristiano Ronaldo</h2>
+        <h2>“To win you have to score one more goal than your opponent.” – Johan Cruyff</h2>
 
-<main>
-<section id="home">
-    <p>We help young and senior players develop their skills and reach their full potential.</p>
-  </section>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We offer coaching for all skill levels. Join us to become a better footballer!</p>
-  </section>
+    <main>
+        <section id="home">
+            <p>We help young and senior players develop their skills and reach their full potential.</p>
+        </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <label>Name:</label>
-      <input type="text" name="name" required><br>
-      <label>Email:</label>
-      <input type="email" name="email" required><br>
-      <label>Message:</label>
-      <textarea name="message" required></textarea><br>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We offer coaching for all skill levels. Join us to become a better footballer!</p>
+        </section>
 
-<img src="C:\Users\junio\OneDrive\Documents\OIP.jpg" alt="A football Academy">
-<img width:100, height:auto>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
 
-</main>
+        <!-- Make sure to use the correct relative path for your image -->
+        <img src="assets/OIP.jpg" alt="Football Academy Image" style="width: 100%; height: auto;">
 
+    </main>
 
-<footer>
-  
-
-<p>&copy; 2025 Junior Boitshwarelo</p>
-
-</footer>
+    <footer>
+        <p>&copy; 2025 Junior Boitshwarelo</p>
+    </footer>
 
 </body>
-git add index.html
-
-git commit -m "Updated content"
-
-git push origin main
 </html>
