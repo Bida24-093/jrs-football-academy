@@ -3,8 +3,6 @@
 <html lang="en">
 
 <head>
-<link rel='stylesheet' href='index.css' type='text'/>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JRS Football Academy</title>
@@ -15,16 +13,10 @@
 
     <header>
         <div class="logo">
-            <!-- Make sure the image is placed inside the 'assets' folder -->
             <img src="assets/logo.png" alt="Football Academy Logo">
         </div>
-
         <h1>JRS Football Academy</h1>
-        <h2>Welcome to my Football Academy</h2>
-        <h2>“Winning is not everything – but making the effort to win is” – Lionel Messi</h2>
-        <h2>“When you’ve got something to prove, there’s nothing greater than a challenge.” – Cristiano Ronaldo</h2>
-        <h2>“To win you have to score one more goal than your opponent.” – Johan Cruyff</h2>
-
+        <h2>Unlock Your Full Potential</h2>
         <nav>
             <a href="#home">Home</a> |
             <a href="#about">About</a> |
@@ -33,36 +25,42 @@
     </header>
 
     <main>
-        <section id="home">
-            <p>We help young and senior players develop their skills and reach their full potential.</p>
+        <section id="home" class="section">
+            <h2>Welcome to JRS Football Academy</h2>
+            <p>We help both young and senior players develop their skills and reach their full potential.</p>
         </section>
 
-        <section id="about">
+        <section id="about" class="section">
             <h2>About Us</h2>
-            <p>We offer coaching for all skill levels. Join us to become a better footballer!</p>
+            <p>Our mission is to offer top-tier coaching for players of all skill levels. Join us to become the best footballer you can be!</p>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="section">
             <h2>Contact Us</h2>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required><br>
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required><br>
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea><br>
+
                 <button type="submit">Submit</button>
             </form>
         </section>
 
-        <!-- Make sure to use the correct relative path for your image -->
-        <img src="assets/OIP.jpg" alt="Football Academy Image" style="width: 100%; height: auto;">
-
+        <section id="image">
+            <!-- Ensure the path to your image is correct -->
+            <img src="assets/OIP.jpg" alt="Football Academy Image">
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Junior Boitshwarelo</p>
+        <p>&copy; 2025 Junior Boitshwarelo | All Rights Reserved</p>
     </footer>
 
 </body>
+
 </html>
