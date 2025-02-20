@@ -49,14 +49,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: black;
     font-size: 1.1em;
     font-weight: 700;
     transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #ecf0f1;
+    color: white;
 }
 
 /* Hero Section */
