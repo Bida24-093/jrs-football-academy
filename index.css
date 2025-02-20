@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
-    background-colour: blue
+    background-colour: white
 }
 
 a {
@@ -49,14 +49,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: black;
+    color: white;
     font-size: 1.1em;
     font-weight: 700;
     transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: white;
+    color: white ;
 }
 
 /* Hero Section */
